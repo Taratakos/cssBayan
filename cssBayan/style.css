@@ -140,5 +140,15 @@ input[type='radio']:checked+label .icons {
 }
 
 @media(hover:hover) {
-  
+  .main-block:hover .title {
+    color: blue
+  }
+
+  .title {
+    font-size: 1.7rem;
+  }
+
+  input[type='radio']:checked+label .image {
+    width: 20rem;
+  }
 }
