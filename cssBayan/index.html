@@ -4,9 +4,76 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://kit.fontawesome.com/266059f41e.js" crossorigin="anonymous"></script>
+ 
+    <link rel="stylesheet" href="./style.css" />
     <title>Accordion component</title>
   </head>
   <body>
-    <h1>CSS Bayan</h1>
+    <div class="accordion">
+      <h1>CSS Bayan</h1>
+      <div class="main-block">
+        <!-- First item -->
+        <div class="container">
+          <input type="radio" id="cont1" name="xxx" checked>
+            <label for="cont1">
+            <div class="head">
+            <div class="title">You can't just copy and paste css</div>
+            <!-- <div class="icons"><i class="fa-solid fa-xmark"></i></div> -->
+            <div class="icons"></div>
+            </div>
+            <img
+              class="image"
+              src="./images/copypaste.jpg"
+              alt="A sloth looks in your eyes"
+            />
+          </label>
+        </div>
+        <hr class="hr" noshade size="1%" />
+        <!-- Second item -->
+        <div class="container">
+          <input type="radio" id="cont2" name="xxx">
+            <label for="cont2">
+          <div class="head">
+          <div class="title">Keep calm and carry on</div>
+          <div class="icons"></div>
+          </div>
+          <img
+            class="image"
+            src="./images/calm.jpg"
+            alt="A sloth sits on a burning chair"
+          />
+            </label>
+        </div>
+        <hr class="hr" noshade size="1%" />
+        <!-- Third item -->
+         <div class="container">
+          <div class="head">
+          <div class="title">Work-life balance</div>
+          <div class="icons"></div>
+          </div>
+          <img
+            class="image"
+            src="./images/work-life.jpg"
+            alt="a sloth with cup of coffee"
+          />
+        </div>
+        <hr class="hr" noshade size="1%" />
+        <!-- Fourth item -->
+        <div class="container">
+          <div class="head">
+          <div class="title">Dude, where is JS</div>
+          <div class="icons"></div>
+          </div>
+          <img
+            class="image"
+            src="./images/js.jpg"
+            alt="a sloth with cup of coffee"
+          />
+        </div>
+        <hr class="hr" noshade size="1%" />        
+      </div>
+      </div>
+    </div>
   </body>
 </html>
