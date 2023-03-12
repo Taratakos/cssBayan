@@ -138,3 +138,7 @@ input[type='radio']:checked+label .icons {
     font-size: 1.6rem;
   }
 }
+
+@media(hover:hover) {
+  
+}
